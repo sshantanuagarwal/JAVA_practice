@@ -124,7 +124,7 @@ public class Dict {
     public static void main(String[] args) {
         TreeMap<String,Integer> map= new TreeMap<>();
         map.put("Jan",31);
-        if(Main.leapYear(2021)==true)
+        if(Main.leapYear(2021))
             map.put("Feb",29);
         else
             map.put("Feb",28);

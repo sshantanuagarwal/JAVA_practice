@@ -1,7 +1,5 @@
 package com.company;
 
-import java.util.ArrayList;
-
 public class Two_Stacks {
 
     int size=10, top1=5,top2=4 ;

@@ -59,7 +59,7 @@ public class Array1 {
         int flagodd=0;
         int flageven=0;
         for(int i=0; i<arr.length; i++) {
-            String value =Main.odd_even(arr[i]);
+            String value = Main.odd_even(arr[i]);
             if(value=="odd")
                 flagodd++;
             else

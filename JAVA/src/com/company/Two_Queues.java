@@ -22,8 +22,9 @@ public class Two_Queues {
     public void dequeue1(){
         if(rear1==-1){
             System.out.println("Queue is empty");
-        } else
-        front1++;
+        } else {
+            front1++;
+        }
     }
 
     public void print1(){
@@ -45,8 +46,9 @@ public class Two_Queues {
     public void dequeue2(){
         if(rear2==10){
             System.out.println("Queue is empty");
-        } else
-        front2--;
+        } else {
+            front2--;
+        }
     }
 
     public void print2(){
